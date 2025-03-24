@@ -61,7 +61,6 @@ task3.add_dependencies(task2)
 
 task4.add_dependencies(task3)
 
-# After creating task exceution create DAG
 
 dag = DAG("etl_pipeline")
 
